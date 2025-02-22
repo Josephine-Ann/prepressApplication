@@ -1,0 +1,58 @@
+.downloadModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 500px;
+    position: relative;
+}
+
+.scrollable-window {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: rgb(219, 212, 212);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin-top: 330px;
+}
+
+#modal {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.downloadButtons {
+    margin: 5px 0px;
+    border: 1px solid rgba(130, 108, 108, 0.43);
+    width: 35vw;
+    height: 5vh;
+    color: #555;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fa-solid {
+    margin: 0px 5px;
+    font-size: 15px;
+}

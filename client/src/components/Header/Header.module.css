@@ -1,0 +1,85 @@
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  min-height: 60px;
+}
+
+.sendRevisalButton {
+  margin: 5px 0px;
+  border: 1px solid rgba(130, 108, 108, 0.43);
+  width: 15vw;
+  height: 5vh;
+  color: #555;
+  background-color: white;
+  cursor: pointer;
+}
+
+.companyLogoCursor {
+  cursor: pointer;
+}
+
+.inputHeader {
+  height: 25px;
+  padding: 0px;
+  border: 0px;
+  width: 210px;
+}
+
+@media (max-width: 768px) {
+  .appHeader {
+    min-height: 40px;
+  }
+
+  .appHeader {
+    flex-direction: column;
+  }
+
+  .inputFieldsContainer {
+    flex-direction: column;
+  }
+
+  .statusDropdown {
+    margin-bottom: 10px;
+  }
+
+  .companyLogo {
+    width: calc(100vw - 20px);
+    height: calc(100% - 20px);
+    text-align: center;
+    font-size: extra-large;
+  }
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.statusDropdown {
+  height: 25px;
+  width: 210px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px;
+  min-height: 20px;
+}
+
+.inputFieldsContainer {
+  justify-content: space-between;
+  align-items: center;
+  width: 440px;
+}
+
+.list {
+  display: flex;
+}
+
+.webviewer {
+  display: none;
+}

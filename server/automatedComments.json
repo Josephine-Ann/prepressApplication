@@ -1,0 +1,15 @@
+{
+    "errors": {
+        "resolution": "After reviewing your submitted PDF, we've detected that the resolution is below our minimum requirement of 330 PPI. This could result in a loss of print quality, making the final product appear blurry or pixelated.",
+"colorSpace": "You have sent your file in pantones rather than CMYK. This may result in the design looking vastly different from what you had initially anticipated. Please, update the file to CMYK and check that you are first happy with the result before re-sending.",
+"dimensionsToDieCut15": "Based on our internal guidelines, your diecut is not appropriate for the size of the image. It should be between 1-50.",
+"dimensionsToDieCut40":  "Based on our internal guidelines, your diecut is not appropriate for the size of the image. It should be between 51-100.",
+"dimensionsToDieCut90":  "Based on our internal guidelines, your diecut is not appropriate for the size of the image. It should be between 101-120.",
+"dimensionsToDieCut200":  "Based on our internal guidelines, your diecut is not appropriate for the size of the image. It should be between 121-150.",
+"violationEU11692011Food": "We’ve reviewed your current PDF submission for your food packaging project, and we've encountered a violation of the EU 1169/2011 regulations. Specifically, the required text size is not compliant with the minimum required font size of 1.2mm, as outlined for food labeling. To proceed with printing, we kindly request that you send us an updated version of the PDF that adheres to this guideline. It’s critical that this update is made before production begins to ensure compliance with EU regulations.",
+"violationEU11692011Med": "After reviewing your PDF for pharmaceutical packaging, we’ve identified a non-compliance with EU 1169/2011 regulations. Specifically, the text size does not meet the minimum 0.9mm requirement for small packages, which is mandatory for pharmaceutical products. We kindly ask that you provide us with an updated PDF where the text size is adjusted to meet these regulations. It’s crucial to ensure this compliance before we can move forward with the production process."
+    },
+    "opening": "Dear client, \n We are writing to request you make some modifications to either your design or your technical instructions.",
+    "closing": "Thank you for your patience. \n Kind regards, \n Legacy Litho",
+    "manager": "Dear Prepress, \n please make sure there are no outstanding issues with this PDF apart from those already listed in automated comments."
+}
