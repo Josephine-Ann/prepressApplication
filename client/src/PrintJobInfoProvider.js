@@ -60,6 +60,7 @@ class PrintJobInfoProvider extends Component {
   checkForAutomatedComments = (jobPDF) => {
     const printJob = this.state.printJobList.find(pj => pj.img === jobPDF);
     const surfaceArea = printJob.dimensions.replace(" cm", "").split("x").map(n => parseInt(n, 10)).reduce((acc, num) => acc * num, 1);
+    console.log("checkForAutomatedComments ", surfaceArea, " ", printJob.diecutCode)
     return this.getAutomatedComments({
       'resolution': printJob.resolutionInPPI < 330,
       'colorSpace': printJob.colorSpace.toLowerCase() !== "spot color",
