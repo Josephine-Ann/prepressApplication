@@ -8,6 +8,7 @@ import {
   openDB
 } from './Utils/indexedDBCode';
 import goToPrintJob from './Utils/goToPrintJob';
+import './PrintJob.css';
 
 const PrintJob = ({ job }) => {
   const { updatePrintJob } = useContext(PrintJobContext);
