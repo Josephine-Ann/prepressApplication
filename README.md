@@ -1,4 +1,10 @@
 # Notes before starting up
+
+Before doing anything:
+I over-excitedly used the thumbnail generation without loading the whole WebViewer. Didn't have enough time to figure out whether or not it was possible to use the full API without loading the WebViewer, but there was no optimization available with the partial API, as far as I could tell.
+
+This is all to say, the gigantic 64-base strings will take about 10 or 20 seconds upon first load, and then it's much quicker as they will save on your browser under an indexed DB. FYI on Incognito, this will actually cause an error. 
+
 1. You will need a free license key from Apryse:
 
 https://dev.apryse.com/
